@@ -6,7 +6,7 @@
 /*   By: isbesli <isbesli@student.42kocaeli.com.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 14:31:33 by isbesli           #+#    #+#             */
-/*   Updated: 2023/07/09 12:23:48 by isbesli          ###   ########.fr       */
+/*   Updated: 2023/07/09 17:26:11 by isbesli          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,4 @@ void	*ft_calloc(size_t count, size_t size)
 		return (ptr);
 	ft_bzero(ptr, size * count);
 	return (ptr);
-}
-
-void	ft_bzero(void *s, size_t n)
-{
-	ft_memset(s, '\0', n);
 }
